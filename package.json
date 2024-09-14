@@ -1,0 +1,52 @@
+{
+  "name": "babylon-edu-api",
+  "version": "1.0.0",
+  "description": "The backend api for our library management system",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACA-Backend/babylon-edu-api.git"
+  },
+  "keywords": [
+    "Libary",
+    "books",
+    "education",
+    "history",
+    "documents"
+  ],
+  "authors": [
+    {
+      "name": "Ikwuka Martin Somto",
+      "email": "martinsomto2001@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACA-Backend/babylon-edu-api/issues"
+  },
+  "homepage": "https://github.com/ACA-Backend/babylon-edu-api#readme",
+  "dependencies": {
+    "argon2": "^0.40.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.3",
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  }
+}
